@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Git</title>
+      <link href="/2022/07/09/Git/"/>
+      <url>/2022/07/09/Git/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h1><h2 id="git-config"><a href="#git-config" class="headerlink" title="git  config"></a>git  config</h2><p>git config –global user.name “alan”</p><p>git config –global user.email <a href="mailto:&#120;&#x78;&#120;&#64;&#x78;&#x78;&#46;&#99;&#x6f;&#109;">&#120;&#x78;&#120;&#64;&#x78;&#x78;&#46;&#99;&#x6f;&#109;</a></p><p>设置用户名和邮箱</p><h2 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a>git init</h2><p>初始化 会生成.git</p><h2 id="git-status"><a href="#git-status" class="headerlink" title="git status"></a>git status</h2><p>状态：当前所属分支，文件状态，可以进行的操作</p><h2 id="git-add"><a href="#git-add" class="headerlink" title="git add"></a>git add</h2><p>添加到缓存区</p><h2 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a>git commit</h2><p>添加到本地仓库</p><p>git commit -m “说明信息”</p><p>git commit -a -m “删库跑路” &#x2F;&#x2F;add 和commit合并</p><p>git commit -am “删库跑路” &#x2F;&#x2F;add 和commit合并</p><h2 id="git-log"><a href="#git-log" class="headerlink" title="git log"></a>git log</h2><p>日志</p><p>q：退出</p><h2 id="gitignore"><a href="#gitignore" class="headerlink" title="gitignore"></a>gitignore</h2><p>touch .gitignore &#x2F;&#x2F;创建.gitignore文件</p><p>将不需要上传的文件名放入.gitignore</p><h2 id="git-branch"><a href="#git-branch" class="headerlink" title="git branch"></a>git branch</h2><p>git branch “xx” &#x2F;&#x2F;创建分支xx</p><p>git branch &#x2F;&#x2F;查看分支</p><h2 id="git-checkout-xx"><a href="#git-checkout-xx" class="headerlink" title="git checkout xx"></a>git checkout xx</h2><p>git checkout xx &#x2F;&#x2F;切换到分支xx</p><p>git checout master &#x2F;&#x2F;切换到分支master</p><p>git branch -d xx &#x2F;&#x2F;删除分支xx</p><p>git branch -D xx &#x2F;&#x2F;彻底删除分支xx</p><p>git checkout -b xx &#x2F;&#x2F;创建分支xx并切换到分支xx</p><h2 id="git-merge"><a href="#git-merge" class="headerlink" title="git merge"></a>git merge</h2><p>Git merge xx &#x2F;&#x2F;将其他分支合并到此分支</p><h2 id="git-clone"><a href="#git-clone" class="headerlink" title="git clone"></a>git clone</h2><p>git clone <a href="https://xxxxxxxx/">https://xxxxxxxx</a></p><h2 id="git-remote"><a href="#git-remote" class="headerlink" title="git remote"></a>git remote</h2><p>Git remote -v &#x2F;&#x2F;远程仓库地址</p><h2 id="git-push"><a href="#git-push" class="headerlink" title="git push"></a>git push</h2><p>推送到远程仓库</p><h2 id="git-fetch"><a href="#git-fetch" class="headerlink" title="git fetch"></a>git fetch</h2><p>git fetch &#x2F;&#x2F;拉到本地版本库，本地文件不变</p><h2 id="git-diff"><a href="#git-diff" class="headerlink" title="git diff"></a>git diff</h2><p>git diff origin(远程仓库名)&#x2F;main(远程分支名)  &#x2F;&#x2F;对比区别</p><h2 id="git-pull"><a href="#git-pull" class="headerlink" title="git pull"></a>git pull</h2><p>git pull &#x2F;&#x2F;把远程仓库的内容直接整合到工作区</p><h2 id="vscode"><a href="#vscode" class="headerlink" title="vscode"></a>vscode</h2><ol><li>Initialize Repository &#x2F;&#x2F;git init</li><li>U &#x2F;&#x2F;未追踪状态-Untracked</li><li>+加号 &#x2F;&#x2F;git add</li><li>-减号 &#x2F;&#x2F;取消add</li><li>A &#x2F;&#x2F;被添加到暂存区-Added</li><li>message 和 ✓ &#x2F;&#x2F;git commit</li><li>M &#x2F;&#x2F;被修改状态-Modifed</li><li>publish branch &#x2F;&#x2F;push</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>TypeScript 2</title>
       <link href="/2022/06/26/TypeScript2/"/>
       <url>/2022/06/26/TypeScript2/</url>
@@ -70,9 +95,9 @@
       
         <tags>
             
-            <tag> portainer </tag>
-            
             <tag> Docker </tag>
+            
+            <tag> portainer </tag>
             
         </tags>
       
