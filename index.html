@@ -1,0 +1,333 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>A-Lan</title><meta name="author" content="alan"><meta name="copyright" content="alan"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="A-Lan">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="A-Lan">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/avatar.jpg">
+<meta property="article:author" content="alan">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'A-Lan',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-12-19 07:53:27'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+
+if (false) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "/img/loading.gif" data-lazy-src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list-ul"></i><span> 目录</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-thumbs-up"></i><span> 友情连接</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(245, 228, 212, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #ff0000 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%); background-blend-mode: normal, normal, screen, overlay, normal"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">A-Lan</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list-ul"></i><span> 目录</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-thumbs-up"></i><span> 友情连接</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">A-Lan</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://dalanan.github.io" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:892791207@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2022/12/19/hexo%E5%A4%87%E5%BF%98/" title="Hexo备忘"><img class="post_bg" src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-1.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo备忘"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/12/19/hexo%E5%A4%87%E5%BF%98/" title="Hexo备忘">Hexo备忘</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-19T07:53:15.484Z" title="发表于 2022-12-19 07:53:15">2022-12-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Hexo/">Hexo</a></span></div><div class="content">Welcome to Hexo! 
+Quick StartCreate a new post1$ hexo new [layout] &lt;title&gt;
+
+
+可以在命令中指定文章的布局（layout），不指定默认为 post，也可以通过修改 _config.yml 中的 default_layout 参数来指定默认布局。创建的新文章会自动加上指定布局对应的模板文件中的内容。
+
+Run server12$ hexo server$ hexo s
+
+hexo-server模块的主要命令，输入命令以启动服务器，您的网站会在 http://localhost:4000 下启动。在服务器启动期间，Hexo 会监视文件变动并自动更新，您无须重启服务器。
+
+Generate static files12$ hexo generate$ hexo g
+
+首先执行命令生成相应的静态网页，生成的静态网页以及相关资源都会在public目录下
+
+12$ hexo server -p 5000$ hexo s -p 5000
+
+如果您想要更改端口，或是在执行时遇到了 EADDRINUSE 错误，可以在执 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/12/12/String.format%20%E7%AE%80%E5%8D%95%E7%94%A8%E6%B3%95/" title="String.format简单用法"><img class="post_bg" src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-3.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="String.format简单用法"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/12/12/String.format%20%E7%AE%80%E5%8D%95%E7%94%A8%E6%B3%95/" title="String.format简单用法">String.format简单用法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-12-12T11:44:13.000Z" title="发表于 2022-12-12 11:44:13">2022-12-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/JAVA/">JAVA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/JAVA/String/">String</a></span></div><div class="content">Spring.format简单用法转换符
+%s：字符串类型
+%c：字符类型
+%b：布尔类型
+整数类型
+%d：十进制整数
+%x：十六进制整数
+%o：八进制整数
+
+
+
+浮点类型
+%f：十进制浮点数
+%a：十六进制浮点数
+%g：通用浮点数：比%f，%a长度更短的一种格式输出，显示6位有效数字，而且会进行四舍五入
+
+
+%e：指数形式
+%%：百分比类型
+%n：换行符
+
+123456789101112131415161718    // %s %c    System.out.println(String.format(&quot;Hello %s%c&quot;, &quot;world&quot;, &#x27;!&#x27;)) // Hello world!    // %b    System.out.println(String.format(&quot;%b&quot;, 10&gt;3)); //     System.out.println(String.format(&quot;%b&quot;, 2&gt;=3)); //     // %d %x %o    System. ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/11/29/Lombok%E6%B3%A8%E8%A7%A3/" title="Lombok注解"><img class="post_bg" src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-10.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Lombok注解"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/11/29/Lombok%E6%B3%A8%E8%A7%A3/" title="Lombok注解">Lombok注解</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-29T08:24:13.000Z" title="发表于 2022-11-29 08:24:13">2022-11-29</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/JAVA/">JAVA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/JAVA/Lombok/">Lombok</a></span></div><div class="content">@Slf4jJava Web中有很多日志框架，如:logback、log4j、log4j2等。为了兼容这些框架，使用了门面模式进行抽象，这就是slf4j的api标准。用户无需关心底层是什么日志框架，只需要获取Logger对象即可。在类上标注@Slf4j，即可使用log.info()等方法。
+123456@Slf4jpublic class LogTest&#123;  public void test()&#123;    log.info(&quot;OK&quot;);  &#125;&#125;
+@EqualsAndHashCode|@ToString123@EqualsAndHashCode(of = &#123;&quot;name&quot;, &quot;sex&quot;&#125;) //指定哪些字段参与equals hashcode@ToString(of = &#123;&quot;name&quot;, &quot;sex&quot;&#125;) //toString可以配置字段
+@NoArgsConstructor|@AllArgsConstructor12 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/11/28/Nginx%20Proxy%20Manager%20%E4%B8%AD%E6%96%87/" title="NginxProxyManager中文版"><img class="post_bg" src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-5.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="NginxProxyManager中文版"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/11/28/Nginx%20Proxy%20Manager%20%E4%B8%AD%E6%96%87/" title="NginxProxyManager中文版">NginxProxyManager中文版</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-11-28T20:03:13.000Z" title="发表于 2022-11-28 20:03:13">2022-11-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/NginxProxyManager/">NginxProxyManager</a></span></div><div class="content">NginxProxyManager环境部署安装Docker和Docker-compose
+
+Docker官方安装文档（英文）
+Docker-Compose官方安装文档（英文）
+Docker和Docker-compose安装文档（中文）
+
+创建YAML文件创建一个 docker-compose.yml 文件:
+123456789101112version: &#x27;3&#x27;services:  app:    image: &#x27;chishin/nginx-proxy-manager-zh:latest&#x27;    restart: always    ports:      - &#x27;80:80&#x27;      - &#x27;81:81&#x27;      - &#x27;443:443&#x27;    volumes:      - ./data:/data      - ./letsencrypt:/etc/letsencrypt
+部署运行1docker-compose up -d
+
+登录管理页面当你的docker容器成功运行，使用浏览器访问 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/07/14/Spring%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E7%B1%BB/" title="Spring常用工具类"><img class="post_bg" src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-9.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Spring常用工具类"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/07/14/Spring%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E7%B1%BB/" title="Spring常用工具类">Spring常用工具类</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-07-14T13:11:52.000Z" title="发表于 2022-07-14 13:11:52">2022-07-14</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/JAVA/">JAVA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/JAVA/Spring/">Spring</a></span></div><div class="content">对象、数组、集合ObjectUtils获取对象的基本信息123456789101112// 获取对象的类名。参数为 null 时，返回字符串：&quot;null&quot;String nullSafeClassName(Object obj)// 参数为 null 时，返回 0int nullSafeHashCode(Object object)// 参数为 null 时，返回字符串：&quot;null&quot;String nullSafeToString(boolean[] array)// 获取对象 HashCode（十六进制形式字符串）。参数为 null 时，返回 0String getIdentityHexString(Object obj)// 获取对象的类名和 HashCode。参数为 null 时，返回字符串：&quot;&quot;String identityToString(Object obj)// 相当于 toString()方法，但参数为 null 时，返回字符串：&quot;&quot;String getDisplayString(Object  ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/07/12/Spring%E6%B3%A8%E8%A7%A3/" title="Spring注解"><img class="post_bg" src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-3.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Spring注解"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/07/12/Spring%E6%B3%A8%E8%A7%A3/" title="Spring注解">Spring注解</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-07-12T21:55:34.000Z" title="发表于 2022-07-12 21:55:34">2022-07-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/JAVA/">JAVA</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/JAVA/Spring/">Spring</a></span></div><div class="content">Spring Web MVC注解@RequestMapping@RequestMapping注解的主要用途是将Web请求与请求处理类中的方法进行映射。Spring MVC和Spring WebFlux都通过RquestMappingHandlerMapping和RequestMappingHndlerAdapter两个类来提供对@RequestMapping注解的支持。@RequestMapping注解对请求处理类中的请求处理方法进行标注；
+@RequestMapping注解拥有以下的六个配置属性：
+value: 映射的请求URL或者其别名
+ 指定请求的实际地址，指定的地址可以是URI Template 模式；
+method: 兼容HTTP的方法名
+ 指定请求的method类型， GET、POST、PUT、DELETE等；
+params: 根据HTTP参数的存在、缺省或值对请求进行过滤
+ 指定request中必须包含某些参数值时，才让该方法处理。
+header: 根据HTTP Header的存在、缺省或值对请求进行过滤
+ 指定request中必须包含某些指定的header值，才能让该方 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/07/09/Git/" title="Git"><img class="post_bg" src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-6.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Git"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/07/09/Git/" title="Git">Git</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-07-09T11:17:09.000Z" title="发表于 2022-07-09 11:17:09">2022-07-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/git/">git</a></span></div><div class="content">Gitgit  configgit config –global user.name “alan”
+git config –global user.email &#120;&#120;&#120;&#64;&#x78;&#x78;&#x2e;&#x63;&#x6f;&#109;
+设置用户名和邮箱
+git init初始化 会生成.git
+git status状态：当前所属分支，文件状态，可以进行的操作
+git add添加到缓存区
+git commit添加到本地仓库
+git commit -m “说明信息”
+git commit -a -m “删库跑路” &#x2F;&#x2F;add 和commit合并
+git commit -am “删库跑路” &#x2F;&#x2F;add 和commit合并
+git log日志
+q：退出
+gitignoretouch .gitignore &#x2F;&#x2F;创建.gitignore文件
+将不需要上传的文件名放入.gitignore
+git branchgit branch “xx” &#x2F;&#x2F;创建分支xx
+git branch  ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/06/26/TypeScript%E8%BF%9B%E9%98%B6/" title="TypeScript进阶"><img class="post_bg" src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-10.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="TypeScript进阶"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/06/26/TypeScript%E8%BF%9B%E9%98%B6/" title="TypeScript进阶">TypeScript进阶</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-06-26T15:51:49.000Z" title="发表于 2022-06-26 15:51:49">2022-06-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/TypeScript/">TypeScript</a></span></div><div class="content">TypeScript进阶proxy &amp; Reflect学习proxy对象代理
+Proxy 对象用于创建一个对象的代理，从而实现基本操作的拦截和自定义（如属性查找、赋值、枚举、函数调用等）
+target
+要使用 Proxy 包装的目标对象（可以是任何类型的对象，包括原生数组，函数，甚至另一个代理）。
+handler
+一个通常以函数作为属性的对象，各属性中的函数分别定义了在执行各种操作时代理 p 的行为。
+handler.get() 本次使用的get
+属性读取操作的捕捉器。
+handler.set() 本次使用的set
+属性设置操作的捕捉器。
+Reflect与大多数全局对象不同Reflect并非一个构造函数，所以不能通过new运算符对其进行调用，或者将Reflect对象作为一个函数来调用。Reflect的所有属性和方法都是静态的（就像Math对象）
+Reflect.get(target, name, receiver)Reflect.get方法查找并返回target对象的name属性，如果没有该属性返回undefined
+Reflect.set(target, name,value ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/06/25/TypeScript/" title="TypeScript"><img class="post_bg" src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-9.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="TypeScript"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/06/25/TypeScript/" title="TypeScript">TypeScript</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-06-25T18:55:03.000Z" title="发表于 2022-06-25 18:55:03">2022-06-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/TypeScript/">TypeScript</a></span></div><div class="content">起步安装：npm install typescript -g
+运行：tsc 文件名
+基础类型包含：String、Number、Boolean、null、undefined以及ES6的Symbol和ES10的BigInt
+字符串类型   1234let str:string = &#x27;123&#x27;//es6字符串模板let str:string = `aaa$&#123;b&#125;`//$&#123;&#125;用来在模板字符串中嵌入表达式
+
+数字类型   1234567let notANumber: number = NaN;//Nanlet num: number = 123;//普通数字let infinityNumber: number = Infinity;//无穷大let decimal: number = 6;//十进制let hex: number = 0xf00d;//十六进制let binary: number = 0b1010;//二进制let octal: number = 0o744;//八进制
+
+布尔类型   123let b1: boolea ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/06/23/portainer/" title="portainer"><img class="post_bg" src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-4.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="portainer"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/06/23/portainer/" title="portainer">portainer</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-06-23T17:42:42.000Z" title="发表于 2022-06-23 17:42:42">2022-06-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/Portainer/">Portainer</a></span></div><div class="content">portainer环境
+Debian10
+Docker
+
+安装portainer2022年5月12日更新：
+最新版本似乎镜像的内部端口更换了，建议用下面的代码：
+1docker run -d -p 9000:9000 --restart=always --name portainer -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+
+12345docker run -d -p 8000:8000 -p 9443:9443 --name portainer     --restart=always     -v /var/run/docker.sock:/var/run/docker.sock     -v /root/data/docker_data/portainer/data:/data     portainer/portainer-ce:latest
+
+旧版安装：
+12345docker run -d -p 8000:8000 -p 9000:9000 --name portainer \     ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "/img/loading.gif" data-lazy-src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">alan</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">12</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">12</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/dalanan"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://dalanan.github.io" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:892791207@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/12/19/hexo%E5%A4%87%E5%BF%98/" title="Hexo备忘"><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-1.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hexo备忘"/></a><div class="content"><a class="title" href="/2022/12/19/hexo%E5%A4%87%E5%BF%98/" title="Hexo备忘">Hexo备忘</a><time datetime="2022-12-19T07:53:15.484Z" title="发表于 2022-12-19 07:53:15">2022-12-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/12/12/String.format%20%E7%AE%80%E5%8D%95%E7%94%A8%E6%B3%95/" title="String.format简单用法"><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-3.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="String.format简单用法"/></a><div class="content"><a class="title" href="/2022/12/12/String.format%20%E7%AE%80%E5%8D%95%E7%94%A8%E6%B3%95/" title="String.format简单用法">String.format简单用法</a><time datetime="2022-12-12T11:44:13.000Z" title="发表于 2022-12-12 11:44:13">2022-12-12</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/11/29/Lombok%E6%B3%A8%E8%A7%A3/" title="Lombok注解"><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-10.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Lombok注解"/></a><div class="content"><a class="title" href="/2022/11/29/Lombok%E6%B3%A8%E8%A7%A3/" title="Lombok注解">Lombok注解</a><time datetime="2022-11-29T08:24:13.000Z" title="发表于 2022-11-29 08:24:13">2022-11-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/11/28/Nginx%20Proxy%20Manager%20%E4%B8%AD%E6%96%87/" title="NginxProxyManager中文版"><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-5.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="NginxProxyManager中文版"/></a><div class="content"><a class="title" href="/2022/11/28/Nginx%20Proxy%20Manager%20%E4%B8%AD%E6%96%87/" title="NginxProxyManager中文版">NginxProxyManager中文版</a><time datetime="2022-11-28T20:03:13.000Z" title="发表于 2022-11-28 20:03:13">2022-11-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/14/Spring%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E7%B1%BB/" title="Spring常用工具类"><img src= "/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/material-9.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Spring常用工具类"/></a><div class="content"><a class="title" href="/2022/07/14/Spring%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7%E7%B1%BB/" title="Spring常用工具类">Spring常用工具类</a><time datetime="2022-07-14T13:11:52.000Z" title="发表于 2022-07-14 13:11:52">2022-07-14</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+    <i class="fas fa-angle-right"></i></a>
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Hexo/"><span class="card-category-list-name">Hexo</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/JAVA/"><span class="card-category-list-name">JAVA</span><span class="card-category-list-count">5</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/JAVA/Java/"><span class="card-category-list-name">Java</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/JAVA/Lombok/"><span class="card-category-list-name">Lombok</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/JAVA/Spring/"><span class="card-category-list-name">Spring</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/JAVA/String/"><span class="card-category-list-name">String</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/TypeScript/"><span class="card-category-list-name">TypeScript</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/git/"><span class="card-category-list-name">git</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Docker/" style="font-size: 1.45em; color: rgb(24, 126, 38)">Docker</a><a href="/tags/compose/" style="font-size: 1.15em; color: rgb(115, 162, 161)">compose</a><a href="/tags/git/" style="font-size: 1.15em; color: rgb(82, 50, 49)">git</a><a href="/tags/JAVA/" style="font-size: 1.45em; color: rgb(146, 182, 154)">JAVA</a><a href="/tags/Lombok/" style="font-size: 1.15em; color: rgb(65, 59, 177)">Lombok</a><a href="/tags/NPM/" style="font-size: 1.15em; color: rgb(131, 54, 15)">NPM</a><a href="/tags/Spring/" style="font-size: 1.45em; color: rgb(9, 23, 50)">Spring</a><a href="/tags/Spring-Boot/" style="font-size: 1.15em; color: rgb(104, 138, 76)">Spring Boot</a><a href="/tags/tools/" style="font-size: 1.15em; color: rgb(146, 12, 76)">tools</a><a href="/tags/TypeScript/" style="font-size: 1.45em; color: rgb(164, 110, 58)">TypeScript</a><a href="/tags/Hexo/" style="font-size: 1.15em; color: rgb(131, 143, 81)">Hexo</a><a href="/tags/portainer/" style="font-size: 1.15em; color: rgb(133, 57, 181)">portainer</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/12/"><span class="card-archive-list-date">2022年12月</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">2022年11月</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span class="card-archive-list-date">2022年07月</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/06/"><span class="card-archive-list-date">2022年06月</span><span class="card-archive-list-count">5</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">12</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-04-13T00:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-12-19T07:53:26.845Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(245, 228, 212, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #ff0000 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%); background-blend-mode: normal, normal, screen, overlay, normal"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By alan</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function subtitleType () {
+  if (false) { 
+    window.typed = new Typed("#subtitle", {
+      strings: ["今日事&#44;今日畢"],
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: false,
+      backSpeed: 50
+    })
+  } else {
+    document.getElementById("subtitle").innerHTML = '今日事&#44;今日畢'
+  }
+}
+
+if (false) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}</script><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
